@@ -1,0 +1,25 @@
+//g++ -Wall -Werror -pedantic -std=c++1y -o gene gene.cpp
+./gene
+
+Silent:
+TACATGGGCATT
+AUGUACCCUUAA
+
+
+Nonsense:
+TACATGGGCATT
+AUGUAGCCGUAA
+
+
+Missense:
+TACATGGGCATT
+AUUUACCCGUAA
+
+Insertion:
+TACATGGGCATT
+AUGUACCGCGUAA
+
+
+Deletion:
+TACATGGGCATT
+AUGUACCGUAA
